@@ -80,6 +80,7 @@ Drillneck|@10:chance of Arrows Piercing|8-12:increased Attack Speed|350:to Evasi
 Rearguard|@6-12:Adds Physical Damage|400-450:to Armour|20-30:increased Projectile Speed|50:increased Block and Stun Recovery|15-20:increased Projectile Damage|20-24:Chance to Block|12-15:Chance to Block Spells
 Soul Strike@20-30:increased Global Critical Strike Chance|30:to Dexterity|13-18,26-32:Adds Chaos Damage|8-12:increased Attack Speed|100-120:to Maximum Energy Shield|40:reduced Energy Shield Rechage Rate|150:faster start of Energy Shield recharge
 Maloney's Nightfall|@25-35:% increased Stun Duration on enemies|8-10:% increased Attack Speed|50-70:to maximum Life|12-16:% to Chaos Resistance|5-8,7-10:Adds Physical Damage to attacks with Bows|10:% chance to create a Smoke Cloud when Hit|20-40:% increased Damage against Blinded Enemies
+Hyrri's Bite|@3-4:Life gained for each enemy hit by your Attacks|15-25:to Strength|35-45:to Dexterity|15-25:to Intelligence|7-10:% increased Attack Speed|2-3:Life gained for each enemy hit by your Attacks|10:% increased Radius of Area Skills
 
 ; -------- Body Armours ---------
 
