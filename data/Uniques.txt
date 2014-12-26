@@ -35,8 +35,8 @@ Sunblast|@15-25:increased Block and Stun Recovery|30-40:increased Trap Damage|20
 Wurm's Molt|@25-40:to Maximum Life|20-30:to Strength|20-30:to Intelligence|10-20:to Cold Resistance|2:Physical Attack Damage Leeched back as Life|2:Physical Attack Damage Leeched back as Mana
 Bated Breath|@9-20:to maximum Energy Shield|10:% increased Damage|15-25:to Intelligence|20-30:to maximum Energy Shield|50:% faster start of Energy Shield Recharge
 Belt of the Deceiver|@25-35:to Strength|10:% reduced Chance to Block Attacks and Spells|15-25:% increased Physical Damage|30:You take % reduced Extra Damage from Critical Strikes|30-40:to maximum Life|6-10:% to all Elemental Resistances
-Maligaro's Restraint|@9-20:to maximum Energy Shield|1–30,1–50:Adds Lightning Damage|100:% increased Shock Duration on You|Shocks you cause are reflected back to you|60:% increased Damage while Shocked|15:% increased Movement Speed while Shocked
-Prismweave|@12-24:% increased Physical Damage|10:% increased Elemental Damage with Weapons|3–7,4–8:Adds Fire Damage|2–5,3–7:Adds Cold Damage|1–13,1–17:Adds Lightning Damage|6,8:% to all Elemental Resistances|30:% increased Elemental Damage with Weapons During Flask effects
+Maligaro's Restraint|@9-20:to maximum Energy Shield|1-30,1-50:Adds Lightning Damage|100:% increased Shock Duration on You|Shocks you cause are reflected back to you|60:% increased Damage while Shocked|15:% increased Movement Speed while Shocked
+Prismweave|@12-24:% increased Physical Damage|10:% increased Elemental Damage with Weapons|3-7,4-8:Adds Fire Damage|2-5,3-7:Adds Cold Damage|1-13,1-17:Adds Lightning Damage|6,8:% to all Elemental Resistances|30:% increased Elemental Damage with Weapons During Flask effects
 
 ; -------- Rings ---------
 
@@ -63,11 +63,11 @@ The Taming|@8-10:to all Elemental Resistances|15:increased Elemental Damage with
 Thief's Torment|@8-10:to all Elemental Resistances|20-30:Life gained for each enemy hit by your Attacks|15:Mana gained for each enemy hit by your Attacks|8-12:to all Elemental Resistances|15-25:increased Quantity of Items found|50:Reduced Effect of Curses on You|Can't use other Rings
 Voideye|@1 Socket|5:to Level of Gems in this item
 Bloodboil|@20-30 to maximum Life|7-10,15-20:Adds Fire Damage|20-40:to maximum Life|10-15:to Cold Resistance|45:reduced Effect of Chill on You|100:increased Ignite Duration on You
-Sibyl's Lament|@20-30:to maximum Life|20-30:increased Elemental Damage with Weapons|8¨C20,15¨C28:Adds Fire Damage|20-40:reduced Rarity of Items found|Left ring slot: 30% reduced Reflected Elemental Damage taken|Right ring slot: 30% reduced Reflected Physical Damage taken
+Sibyl's Lament|@20-30:to maximum Life|20-30:increased Elemental Damage with Weapons|8-20,15-28:Adds Fire Damage|20-40:reduced Rarity of Items found|Left ring slot: 30% reduced Reflected Elemental Damage taken|Right ring slot: 30% reduced Reflected Physical Damage taken
 Valako's Sign|@20-30:% to Lightning Resistance|15:% increased Damage against Shocked Enemies|20:% increased Lightning Damage|20-40: to maximum Mana|1:% of Damage Leeched as Life against Shocked Enemies|5:% chance to Shock
 Kikazaru|@20-30:% to Lightning Resistance|10-15:to all Attributes|13-17:Life Regenerated per second|20-40:% increased Mana Regeneration Rate|20:% reduced Effect of Curses on You
 Malachai's Artifice|@Has 1 Socket|Socketed Gems have Elemental Equilibrium|40:Socketed Gems have % reduced Elemental Equilibrium effect|-25:% to all Elemental Resistances|75-100:% to Fire Resistance when Socketed with a Red Gem|75-100:% to Cold Resistance when Socketed with a Green Gem|75-100:% to Lightning Resistance when Socketed with a Blue Gem|All Sockets are White
-Tasalio's Sign|20-30:% to Cold Resistance|10–15:Adds Physical Damage against Frozen Enemies|5–7,6–9:Adds Cold Damage|200-300:to Evasion Rating|20:% reduced Chill Duration on You|5:% chance to Freeze
+Tasalio's Sign|20-30:% to Cold Resistance|10-15:Adds Physical Damage against Frozen Enemies|5-7,6-9:Adds Cold Damage|200-300:to Evasion Rating|20:% reduced Chill Duration on You|5:% chance to Freeze
 Timeclasp|@15-25:to maximum Energy Shield|10-15:% increased Attack Speed|5-8:% increased Cast Speed|15% reduced Mana Regeneration Rate|10-25:to maximum Energy Shield|30:Temporal Chains has % reduced Effect on You
 
 ; -------- Quivers ---------
@@ -79,7 +79,7 @@ Craghead|@1-4:Adds Physical Damage to attacks with Bows|20-25:reduced Enemy Stun
 Drillneck|@10:chance of Arrows Piercing|8-12:increased Attack Speed|350:to Evasion Rating|40-50:to maximum Life|10-19,14-24:Adds Physical Damage to attacks with Bows|Projectile Damage increased by Arrow Pierce Chance
 Rearguard|@6-12:Adds Physical Damage|400-450:to Armour|20-30:increased Projectile Speed|50:increased Block and Stun Recovery|15-20:increased Projectile Damage|20-24:Chance to Block|12-15:Chance to Block Spells
 Soul Strike@20-30:increased Global Critical Strike Chance|30:to Dexterity|13-18,26-32:Adds Chaos Damage|8-12:increased Attack Speed|100-120:to Maximum Energy Shield|40:reduced Energy Shield Rechage Rate|150:faster start of Energy Shield recharge
-Maloney's Nightfall|@25-35:% increased Stun Duration on enemies|8-10:% increased Attack Speed|50-70:to maximum Life|12-16:% to Chaos Resistance|(5–8,7–10:Adds Physical Damage to attacks with Bows|10:% chance to create a Smoke Cloud when Hit|20-40:% increased Damage against Blinded Enemies
+Maloney's Nightfall|@25-35:% increased Stun Duration on enemies|8-10:% increased Attack Speed|50-70:to maximum Life|12-16:% to Chaos Resistance|5-8,7-10:Adds Physical Damage to attacks with Bows|10:% chance to create a Smoke Cloud when Hit|20-40:% increased Damage against Blinded Enemies
 
 ; -------- Body Armours ---------
 
@@ -219,7 +219,7 @@ Thousand Teeth Temu|100-120:increased Evastion Rating|70-90:to Maximum Life|2:of
 Titucius' Span|@478-538:Armour|60-80:increased Armour|30-50:to maximum Life|10:Physical Damage taken from Ranged Attacks|200:increased Armour against Projectiles|25:additional Block Chance against Projectiles
 Wheel of the Stormsail|@16-21:Armour|60:increased Block Recovery|5-10:to Armour|30-40:increased Rarity of Items found|25:increased Curse Duration|100:increased Duration of Curses on you|5:additional Block Chance
 Maligaro's Lens|25:% Chance to Block|106:Evasion Rating|31:Energy Shield|@51-70:Reflects Physical Damage to Melee Attackers|10-15:% increased Attack Speed|10-20:% increased maximum Life|-50:% to all Elemental Resistances|10:% increased Radius of Area Skills|2:Nearby allies Recover % of your maximum Life when you Die
-Great Old One's Ward|27:% Chance to Block|@164:Evasion Rating|8–15,12–20:Adds Physical Damage|6-10:% increased Attack Speed|50-70:to maximum Life|8-12:% Chance to Block Spells
+Great Old One's Ward|27:% Chance to Block|@164:Evasion Rating|8-15,12-20:Adds Physical Damage|6-10:% increased Attack Speed|50-70:to maximum Life|8-12:% Chance to Block Spells
 
 
 ; -------- 1H Axe ---------
@@ -280,7 +280,7 @@ Nycta's Lantern|@30-45:Physical Damage|20:increased Elemental Damage|Gems in thi
 The Supreme Truth|@54-81,60-90:Physical Damage|1.32-1.44:Attacks per Second|20:increased Elemental Damage|1:to Level of Gems in this item|80-100:increased Physical Damage|10-20:increased Attack Speed|5:increased Experience gain|20:increased Elemental Damage|60:increased Intelligence Requirement
 The Dark Seer|@25-38:Physical Damage|15:increased Elemental Damage|30-50:increased Damage|7% Global chance to Blind enemies on hit|+1 Mana gained on Kill per Level|+1 Energy Shield gained on Kill per Level|Cannot be Blinded
 Mj?|@81-151,99-185:Physical Damage|40:increased Stun Duration on enemies|80-120:increased Physical Damage|Skills Chain +1 times|30-40:increased Lightning Damage with Weapons|+200 Strength Requirement|+300 Intelligence Requirement|50% chance to Cast Socketed Lightning Spells on Hit
-Brutus' Lead Sprinkler|36–85:Physical Damage|8.77: % Critical Strike Chance|1.32:Attacks per Second|@10:% increased Elemental Damage|20:% increased Physical Damage|15–25:Adds Fire Damage against Ignited Enemies|8–26,13–31:Adds Physical Damage|30:% increased Fire Damage|15-20:% increased Attack Speed|30-40:% increased Critical Strike Chance
+Brutus' Lead Sprinkler|36-85:Physical Damage|8.77:% Critical Strike Chance|1.32:Attacks per Second|@10:% increased Elemental Damage|20:% increased Physical Damage|15-25:Adds Fire Damage against Ignited Enemies|8-26,13-31:Adds Physical Damage|30:% increased Fire Damage|15-20:% increased Attack Speed|30-40:% increased Critical Strike Chance
 
 ; -------- 2H Mace ---------
 
@@ -312,7 +312,7 @@ Queen's Decree|@31-52:Physical Damage|18:increased Accuracy Rating|10-15:Minions
 Rigvald's Charge|110-202,125-230:Physical Damage|@18:increased Accuracy Rating|120-150:increased Physical Damage|20:increased Attack Speed|150-200:to Accuracy Rating|10:increased Movement Speed
 Shiversting|31-50,34-56:Physical Damage|@35-70:Cold Damage|18:increased Accuracy Rating|80-100:increased Physical Damage|35-70:Adds Cold Damage|3:of Physical Attack Damage Leeched back as Mana|Cannot be Frozen
 Terminus Est|@117-194,154-255:Physical Damage|18:increased Accuracy Rating|120-180:increased Physical Damage|20:increased Attack Speed|10:to Mana Gained when you Kill an enemy|10:increased Movement Speed|Gain a Frenzy Charge on Critical Strike
-Doomsower|170–270,252–366:Physical Damage|5:% Critical Strike Chance|1.46:Attacks per Second|@18:% increased Accuracy Rating|15:Socketed Melee Gems have % increased Area of Effect Radius|10:Socketed Red Gems get % Physical Damage as Extra Fire Damage|50-70:% increased Physical Damage|50–85,75–110:Adds Physical Damage|6-12:% increased Attack Speed
+Doomsower|170-270,252-366:Physical Damage|5:% Critical Strike Chance|1.46:Attacks per Second|@18:% increased Accuracy Rating|15:Socketed Melee Gems have % increased Area of Effect Radius|10:Socketed Red Gems get % Physical Damage as Extra Fire Damage|50-70:% increased Physical Damage|50-85,75-110:Adds Physical Damage|6-12:% increased Attack Speed
 
 ; -------- Staff ---------
 
@@ -335,7 +335,7 @@ Midnight Bargain|14-25:Physical Damage|@12-16:increased Spell Damage|10-20:to In
 Moonsorrow|43-79:Physical Damage|@15-19:increased Spell Damage|30-40:increased Spell Damage|125:increased Physical Damage|10:to Intelligence|20-30:increased Lightning Damage|10:increased Cast Speed|10:chance to Blind enemies on hit|Skill gems in this item are supported by level 5 Blind
 Piscator's Vigil|@1.43-1.53:Attacks per Second|@16-19:increased Spell Damage|No Physical Damage|10-18:increased Attack Speed|340-400:to Accuracy Rating|20-30:increased Critical Strike Chance|100-115:Attacks with this Weapon have increased Elemental Damage
 Void Battery|28-52:Physical Damage|@16-20:increased Spell Damage|80:reduced Spell Damage|50-65:increased Global Critical Strike Chance|40-50:to maximum Mana|1:maximum Power Charge|10-20:increased Cast Speed|25:increased Spell Damage per Power Charge
-Reverberation Rod|8–23:Physical Damage|8.00:% Critical Strike Chance|1.30:Attacks per Second|@10-14:% increased Spell Damage|1:to Level of Socketed Gems|Socketed Gems are Supported by level 1 Spell Echo|10-30:to Intelligence
+Reverberation Rod|8-23:Physical Damage|8.00:% Critical Strike Chance|1.30:Attacks per Second|@10-14:% increased Spell Damage|1:to Level of Socketed Gems|Socketed Gems are Supported by level 1 Spell Echo|10-30:to Intelligence
 
 ; -------- Fishing Rods (yeah, I know... you happy, MonstaMunch??)  ---------
 
