@@ -282,6 +282,7 @@ The Supreme Truth|54-81,60-90:Physical Damage|6.8:% Critical Strike Chance|@1.32
 The Dark Seer|25-38:Physical Damage|6.65:% Critical Strike Chance|@1.20:Attacks per Second|@15:increased Elemental Damage|30-50:increased Damage|7% Global chance to Blind enemies on hit|+1 Mana gained on Kill per Level|+1 Energy Shield gained on Kill per Level|Cannot be Blinded
 Mj?|@81-151,99-185:Physical Damage|40:increased Stun Duration on enemies|80-120:increased Physical Damage|Skills Chain +1 times|30-40:increased Lightning Damage with Weapons|+200 Strength Requirement|+300 Intelligence Requirement|50% chance to Cast Socketed Lightning Spells on Hit
 Brutus' Lead Sprinkler|36-85:Physical Damage|8.77:% Critical Strike Chance|1.32:Attacks per Second|@10:% increased Elemental Damage|20:% increased Physical Damage|15-25:Adds Fire Damage against Ignited Enemies|8-26,13-31:Adds Physical Damage|30:% increased Fire Damage|15-20:% increased Attack Speed|30-40:% increased Critical Strike Chance
+Doryani's Catalyst|96-158,116-218:Physical Damage|6.68:% Critical Strike Chance|@1.55-1.61: Attacks per Second|@10:% increased Elemental Damage|Gems in this item are Supported by level 20 Elemental Proliferation|65-100,85-160:Adds Physical Damage|11-15:% increased Attack Speed|6-10:% increased Cast Speed|30-40:% increased Global Critical Strike Chance|80-100:% increased Elemental Damage|1:% of Elemental Damage Leeched as Life
 
 ; -------- 2H Mace ---------
 
