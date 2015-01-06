@@ -4773,54 +4773,55 @@ ParseItemData(ItemData, ByRef RarityLevel="", ByRef NumPrefixes="", ByRef NumSuf
 
         TT = %TT%`n%MapDescription%
     }
-    
+
+	; Implicit mod range, only appears in belts/rings/amulets/quivers.
+	; Also for unique items, there is another tooltip section so they are not here
+	If (not IsUnique and (IsAmulet or (IsRing and not IsUnsetRing) or IsBelt or IsQuiver))
+	{
+		If (RarityLevel = 1)
+		{
+			ItemTrueTypeName := ItemName
+		}
+		Else
+		{
+			ItemTrueTypeName := ItemTypeName
+		}
+		Loop, Read, %A_WorkingDir%\data\Implicits.txt
+		{
+			; comments and empty line processing, copied from above
+			IfInString, A_LoopReadLine, `;
+			{
+				Continue
+			}
+			If (StrLen(A_LoopReadLine) <= 2)
+			{
+				Continue
+			}
+			IfInString, A_LoopReadLine, %ItemTrueTypeName%
+			{
+				StringSplit, LineParts, A_LoopReadLine, |
+				If (RarityLevel > 1)
+				{
+					ItemImplicitDataIndex := ItemDataPartsIndexAffixes - 1
+				}
+				Else
+				{
+					; for white items that has only implicit
+					ItemImplicitDataIndex := ItemDataParts0
+				}
+				ItemImplicitLine := ItemDataParts%ItemImplicitDataIndex%
+				If (StrLen(ItemImplicitLine) > MirrorLineFieldWidth)
+				{
+					ItemImplicitLine := SubStr(ItemImplicitLine, 1, MirrorLineFieldWidth) . AffixDetailEllipsis
+				}
+				TT = %TT%`n--------`n%ItemImplicitLine%`t%LineParts2%
+				Break
+			}
+		}
+	}
+
     If (RarityLevel > 1 and RarityLevel < 4) 
     {
-        ; Implicit mod range, only appears in belts/rings/amulets/quivers.
-        ; Also for unique items, there is another tooltip section so they are not here
-        If (not IsUnique and (IsAmulet or (IsRing and not IsUnsetRing) or IsBelt or IsQuiver))
-        {
-            If (RarityLevel = 1)
-            {
-                ItemTrueTypeName := ItemName
-            }
-            Else
-            {
-                ItemTrueTypeName := ItemTypeName
-            }
-            Loop, Read, %A_WorkingDir%\data\Implicits.txt
-            {
-                ; comments and empty line processing, copied from above
-                IfInString, A_LoopReadLine, `;
-                {
-                    Continue
-                }
-                If (StrLen(A_LoopReadLine) <= 2)
-                {
-                    Continue
-                }
-                IfInString, A_LoopReadLine, %ItemTrueTypeName%
-                {
-                    StringSplit, LineParts, A_LoopReadLine, |
-                    If (RarityLevel > 1)
-                    {
-                        ItemImplicitDataIndex := ItemDataPartsIndexAffixes - 1
-                    }
-                    Else
-                    {
-                        ; for white items that has only implicit
-                        ItemImplicitDataIndex := ItemDataParts0
-                    }
-                    ItemImplicitLine := ItemDataParts%ItemImplicitDataIndex%
-                    If (StrLen(ItemImplicitLine) > MirrorLineFieldWidth)
-                    {
-                        ItemImplicitLine := SubStr(ItemImplicitLine, 1, MirrorLineFieldWidth) . AffixDetailEllipsis
-                    }
-                    TT = %TT%`n--------`n%ItemImplicitLine%`t%LineParts2%
-                    Break
-                }
-            }
-        }    
         ; Append affix info if rarity is greater than normal (white)
         ; Affix total statistic
         If (ShowAffixTotals = 1)
